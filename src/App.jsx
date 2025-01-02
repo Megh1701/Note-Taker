@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from './component/background'
+import Background from './component/Background'
 import Add from './component/Add'
 import Card from './component/Card'
 import './App.css'

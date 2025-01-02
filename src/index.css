@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your global CSS or a style tag in the component */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #56b5c6; /* Custom color for the scrollbar thumb */
+    border-radius: 10px; /* Round the scrollbar thumb */
+    border: 2px solid #1e2a35; /* Optional border around the thumb */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #1e2a35; /* Custom background for the scrollbar track */
+    border-radius: 10px; /* Round the track */
+  }
+  
